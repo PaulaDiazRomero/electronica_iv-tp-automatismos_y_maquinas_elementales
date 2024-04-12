@@ -4,12 +4,12 @@ Electrónica IV - TP - Automatismos y Máquinas Elementales
 
 ## Introducción
 
-El controlador de bomba de agua  es un dispositivo diseñado para regular el funcionamiento de la bomba de agua, es decir la enciende o apaga según las circuntancias que se den. La bomba de agua es la que va a cargar el tanque de agua desde una cisterna.
+El controlador de bomba de agua  es un dispositivo diseñado para regular el funcionamiento de la bomba de agua, es decir la enciende o apaga según las circunstancias que se den. La bomba de agua es la que va a cargar el tanque de agua desde una cisterna.
 En nuestro caso, la bomba se encenderá cuando haya suficiente agua en la cisterna y se apagará una vez llenado el tanque. Sólo volverá a prenderse si el tanque se descarga hasta un nivel mínimo, sin llegar a descargarse totalmente.
 
 ## Metodología de trabajo
 
-Para empezar a diseñar el circuito del controlador de bomba, analizaremos las principales funciones de la bomba principales funciones: la bomba se enciende (E) cuando hay suficiente agua en la cisterna y la bomba se apaga (A) cuando se llena el tanque. 
+Para empezar a diseñar el circuito del controlador de bomba, analizaremos las principales funciones de la bomba: la bomba se enciende (E) cuando hay suficiente agua en la cisterna y la bomba se apaga (A) cuando se llena el tanque. 
 
 Nos enfocaremos en el momento en que la bomba esté encendida para los casos: tanque de agua bajo; cisterna baja. Encenderemos la bomba cuando estos casos se den en simultáneo, de lo contrario quedará apagada. Para el caso de cisterna baja, esto se dará cuando los led CisternaOK y CisternaL estén ambos encendidos. Entonces:
 
