@@ -31,7 +31,7 @@ El circuito empleado será el siguiente:
 
 Habiendo empleado el circuito final, simulamos la ALU. Para el mismo utilizamos los valores A = 16 y B = 4 y se observan los siguientes resultados:
 
-![alt text](Resultados.jpg)
+![alt text](Resultados_ALU.jpg)
 
 ## Conclusiones
 
